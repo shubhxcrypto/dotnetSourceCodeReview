@@ -1,0 +1,309 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Web\\HealthCorp.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Core\\HealthCorp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Core\\HealthCorp.Core.csproj",
+        "projectName": "HealthCorp.Core",
+        "projectPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Core\\HealthCorp.Core.csproj",
+        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Infrastructure\\HealthCorp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Infrastructure\\HealthCorp.Infrastructure.csproj",
+        "projectName": "HealthCorp.Infrastructure",
+        "projectPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Infrastructure\\HealthCorp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Core\\HealthCorp.Core.csproj": {
+                "projectPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Core\\HealthCorp.Core.csproj"
+              },
+              "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Legacy\\HealthCorp.Legacy.csproj": {
+                "projectPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Legacy\\HealthCorp.Legacy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.23.60, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[23.26.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Legacy\\HealthCorp.Legacy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Legacy\\HealthCorp.Legacy.csproj",
+        "projectName": "HealthCorp.Legacy",
+        "projectPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Legacy\\HealthCorp.Legacy.csproj",
+        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Legacy\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Web\\HealthCorp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Web\\HealthCorp.Web.csproj",
+        "projectName": "HealthCorp.Web",
+        "projectPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Web\\HealthCorp.Web.csproj",
+        "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Core\\HealthCorp.Core.csproj": {
+                "projectPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Core\\HealthCorp.Core.csproj"
+              },
+              "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Infrastructure\\HealthCorp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\shubh\\Desktop\\codeReview\\dotnetvulnerableapp\\src\\HealthCorp.Infrastructure\\HealthCorp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.23.60, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

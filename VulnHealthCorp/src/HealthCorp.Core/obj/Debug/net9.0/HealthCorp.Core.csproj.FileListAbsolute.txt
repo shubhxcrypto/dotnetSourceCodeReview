@@ -1,0 +1,11 @@
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\bin\Debug\net9.0\HealthCorp.Core.deps.json
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\bin\Debug\net9.0\HealthCorp.Core.dll
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\bin\Debug\net9.0\HealthCorp.Core.pdb
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\obj\Debug\net9.0\HealthCorp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\obj\Debug\net9.0\HealthCorp.Core.AssemblyInfoInputs.cache
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\obj\Debug\net9.0\HealthCorp.Core.AssemblyInfo.cs
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\obj\Debug\net9.0\HealthCorp.Core.csproj.CoreCompileInputs.cache
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\obj\Debug\net9.0\HealthCorp.Core.dll
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\obj\Debug\net9.0\refint\HealthCorp.Core.dll
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\obj\Debug\net9.0\HealthCorp.Core.pdb
+C:\Users\shubh\Desktop\codeReview\dotnetvulnerableapp\src\HealthCorp.Core\obj\Debug\net9.0\ref\HealthCorp.Core.dll

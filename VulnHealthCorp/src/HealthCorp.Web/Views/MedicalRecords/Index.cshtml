@@ -1,0 +1,56 @@
+@model IEnumerable<HealthCorp.Core.Entities.MedicalRecord>
+
+@{
+    ViewData["Title"] = "Medical Records";
+}
+
+<h1>Medical Records</h1>
+
+<p>
+    <a asp-action="Upload" class="btn btn-primary">Upload New Record</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>File</th>
+            <th>Patient</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecordType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+               @if(!string.IsNullOrEmpty(item.FilePath))
+               {
+                   <a href="@item.FilePath" target="_blank">Download</a>
+               }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patient.LastName)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<hr />
+<!-- VULNERABILITY: SSRF Interface -->
+<h3>Preview External Image</h3>
+<form asp-action="PreviewImage" method="get" target="_blank">
+    <div class="input-group mb-3">
+        <input type="text" name="url" class="form-control" placeholder="Enter Image URL" />
+        <button class="btn btn-secondary" type="submit">Preview</button>
+    </div>
+</form>
